@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from flask import Flask, jsonify
 from middleware.logger import Log
-from vehicle_scheduling.scheduler import fetch, knapsack
+from vehicle_maintenance_scheduler.scheduler import fetch, knapsack
 
 app = Flask(__name__)
 
